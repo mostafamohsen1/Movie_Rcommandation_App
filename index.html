@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommandation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="appTitle">Movie Recommendation</h1>
+        <div id="auth-buttons">
+            <button id="loginBtn" class="auth-btn">Login</button>
+            <button id="registerBtn" class="auth-btn">Register</button>
+        </div>
+      </header>
+      <form id="genreForm">
+        <label>Choose a type:</label>
+        <select name="genres" id="genres">
+        </select>
+      </form>
+      <button id="playBtn">Search</button>
+      <div id="movieInfo">
+        <div id="moviePoster">
+          <img src="image.jpg" alt="moviePoster" >
+        </div>
+        <div id="movieText">
+          <h1>The Family Man</h1>
+          <p>Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.</p></div>
+      </div>
+      <div id="likeOrDislikeBtns" >
+        <button id="back" disabled>Back</button>
+        <button id="likeBtn">Next</button>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
